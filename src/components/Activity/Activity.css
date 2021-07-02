@@ -1,0 +1,47 @@
+.Activity .notLoggedin {
+	padding: 50px;
+}
+
+.Activity .content .topPart {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 50px 0 50px;
+}
+
+.Activity .content .activityFeedInfo {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px;
+	justify-content: space-around;
+}
+
+.Activity .content .activityFeedInfo .avgSleepHours {
+	margin-right: 20px;
+	padding: 50px;
+	background: linear-gradient(to right, blue, rgb(114, 125, 252));
+	color: white;
+}
+
+.Activity .content .bottomContent {
+	padding: 50px 50px 0 50px;
+}
+
+.Activity .content .statsContent {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+
+.Activity .content .statsContent .statsContentInfo {
+	margin-right: 20px;
+	padding: 50px;
+	background: linear-gradient(to right, brown, rgb(216, 133, 133));
+	color: white;
+}
+
+.Activity .content .statsContent .statsContentInfo .statsNumber {
+	font-weight: bold;
+}
